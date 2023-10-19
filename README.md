@@ -4,13 +4,21 @@ This is the source code for our proposed __Masked Autoencoders in 3D Point Cloud
 
 ## Requirements
 python >= 3.7
+
 pytorch >= 1.7.0
+
 numpy
+
 scikit-learn
+
 einops
+
 h5py
+
 tqdm
+
 and if you are first time to run "pointnet2_ops_lib", you need
+
 
 ```
 pip install pointnet2_ops_lib/.
