@@ -3,23 +3,21 @@
 This is the source code for our proposed __Masked Autoencoders in 3D Point Cloud Representation Learning (MAE3D)__. 
 
 ## Requirements
-python >= 3.7
+python >= 3.7  
 
-pytorch >= 1.7.0
+pytorch >= 1.7.0  
 
-numpy
+numpy  
 
-scikit-learn
+scikit-learn  
 
-einops
+einops  
 
-h5py
+h5py  
 
-tqdm
+tqdm  
 
 and if you are first time to run "pointnet2_ops_lib", you need
-
-
 ```
 pip install pointnet2_ops_lib/.
 ```
@@ -31,7 +29,7 @@ The main datasets we used in our project are ShapeNet and ModelNet40, and you ca
 and then you need to put them at "./data"
 
 ## Evaluate
-We can get an accuracy of 93.4% (SOTA) on the ModelNet40.
+We can get an accuracy of 93.4% on the ModelNet40.
 The pre-trained model can be found in [here](https://livebournemouthac-my.sharepoint.com/:u:/g/personal/jiangj_bournemouth_ac_uk/EfvO9tJcHylOv6x72UeffnEBacsbT6YNchA1ruF1iQP1Dg?e=5EuTSx).
 
 You need to move the "model_cls.t7" to "./checkpoints/mask_ratio_0.7/exp_shapenet55_block/models", 
